@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main
+ * main entry
  *
- * put function
+ * put function task in c language
  *
  * Return: 0 (Success)
 */
