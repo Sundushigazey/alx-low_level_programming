@@ -11,7 +11,7 @@ int main(void)
 	while (quote[s] != '\0')
 	{
 		putchar(quote[s]);
-		s++
-	}
+		s++;
+	};
 	return(1);
 }
