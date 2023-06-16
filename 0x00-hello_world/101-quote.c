@@ -13,5 +13,5 @@ int main(void)
 		putchar(quote[s]);
 		s++
 	}
-	returm(1);
+	return(1);
 }
