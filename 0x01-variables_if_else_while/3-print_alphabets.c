@@ -11,12 +11,13 @@ char ch = 'a', chr = 'A';
 while (ch <= 'z')
 {
 putchar(ch);
-ch ++;
+ch++;
 }
 while (chr <= 'Z')
 {
 putchar(chr);
-chr ++;
-}        
+chr++;
+}
+putchar('\n');
 return (0);
 }
