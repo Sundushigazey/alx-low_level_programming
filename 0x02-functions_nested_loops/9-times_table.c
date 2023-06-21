@@ -13,8 +13,8 @@ for (mul = 0; mul <= 9; mul++)
 _putchar(',');
 _putchar(' ');
 prod = num * mul;
-if (prod <= 9)
-else
+if (prod > 9)
+{
 _putchar((prod / 10) + 48);
 _putchar((prod % 10) + 48);
 }
