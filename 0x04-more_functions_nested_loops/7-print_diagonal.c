@@ -11,11 +11,20 @@ _putchar('\n');
 }
 else
 {
-int i;
-for (i = 1; i <= n; i++)
+int i, j;
+for (i = 0; i <= n; i++)
 {
-_putchar('\');
+for (j = 0; j <= n; j++)
+{
+if (j == i)
+{
+_putchar('\\');
 }
+else if (j < i)
+{
+_putchar(' ');
 }
 _putchar('\n');
+}
+}
 }
