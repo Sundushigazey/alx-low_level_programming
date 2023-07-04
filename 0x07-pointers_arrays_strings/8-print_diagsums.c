@@ -13,7 +13,7 @@ unsigned int s1;
 unsigned int s2;
 s1 = 0;
 s2 = 0;
-for (i =0; i < size; i++)
+for (i = 0; i < size; i++)
 {
 s1 += a[(size * i) + i];
 s2 += a[(size * (i + 1)) - (i + 1)];
