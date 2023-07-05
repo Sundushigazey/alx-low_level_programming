@@ -27,7 +27,7 @@ if (i == 1)
 {
 return (1);
 }
-if (n % i ==0 && n > 0)
+if (n % i == 0 && n > 0)
 {
 return (0);
 }
