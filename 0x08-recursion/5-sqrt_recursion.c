@@ -1,4 +1,5 @@
 #include "main.h"
+int actual_sqrt(int x, int y)
 /**
  *  _sqrt_recursion- natural square root of number
  *  @n: integer
@@ -20,7 +21,7 @@ return (actual_sqrt(n, 0));
  *
  * Return: the resulting square root
  */
-int actual_sqrt(int x, int y)
+int actual_sqrt(int y, int x)
 {
 if (x * x > y)
 {
@@ -28,7 +29,7 @@ return (-1);
 }
 if (x * x == y)
 {
-return (y);
+return (x);
 }
-return (actual_sqrt(x, y + 1));
+return (actual_sqrt(y, x + 1));
 }
