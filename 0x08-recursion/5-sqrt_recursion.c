@@ -1,5 +1,5 @@
 #include "main.h"
-int actual_sqrt(int x, int y)
+int actual_sqrt(int x, int y);
 /**
  *  _sqrt_recursion- natural square root of number
  *  @n: integer
