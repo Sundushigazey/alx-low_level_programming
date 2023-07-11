@@ -20,14 +20,11 @@ if (p == NULL)
 {
 return (0);
 }
-else
-{
 while (i < size)
 {
 *(p + i) = c;
 i++;
 }
 *(p + i) = '\0';
-}
 return (p);
 }
